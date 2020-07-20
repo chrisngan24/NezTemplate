@@ -10,6 +10,25 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:../bin/Debug/MonoGame.Extended.Tiled.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin Sprites/Characters/charactersheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Sprites/Characters/charactersheet.png
+
+#begin Tiles/tilemap.tmx
+/copy:Tiles/tilemap.tmx
+
+#begin Tiles/tileset.png
+/copy:Tiles/tileset.png
 
